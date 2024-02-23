@@ -93,7 +93,7 @@ const RentModal = () => {
       let bodyContent = (
         <div className="flex flex-col gap-8">
           <Heading
-            title="SALIVA COME PUTOS DE LA HENRY FORD?"
+            title="Which of these best describes your place?"
             subtitle="Pick a category"
           />
           <div 

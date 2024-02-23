@@ -9,7 +9,8 @@ export type CountrySelectValue = {
   label: string;
   latlng: number[],
   region: string;
-  value: string
+  value: string,
+  // description: string,
 }
 
 interface CountrySelectProps {
@@ -19,7 +20,7 @@ interface CountrySelectProps {
 
 const CountrySelect: React.FC<CountrySelectProps> = ({
   value,
-  onChange
+  onChange  
 }) => {
   const { getAll } = useCountries();
 

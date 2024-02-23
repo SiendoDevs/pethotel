@@ -23,20 +23,20 @@ import Container from '../Container';
 
 export const categories = [
   {
-    label: 'Beach',
+    label: 'Perro',
     icon: TbBeach,
     description: 'This property is close to the beach!',
   },
   {
-    label: 'Windmills',
+    label: 'Gato',
     icon: GiWindmill,
     description: 'This property is has windmills!',
   },
   {
-    label: 'Modern',
+    label: 'Iguana',
     icon: MdOutlineVilla,
     description: 'This property is modern!'
-  },
+  },  
   {
     label: 'Countryside',
     icon: TbMountain,
@@ -123,7 +123,7 @@ const Categories = () => {
       >
         {categories.map((item) => (
           <CategoryBox 
-            key={item.label}
+            key={item.label}  
             label={item.label}
             icon={item.icon}
             selected={category === item.label}
